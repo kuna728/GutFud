@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE399F38-3AB4-E035-9FD4-EF7AEC869F74" name="Restauracja">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:14:45 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_res" id="E1ACA3F0-2940-987D-58E7-9BB5C2FC45F2">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:35:53 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_res" id="D866EF2F-32F1-7FC6-6CBF-5F48F2A2F610">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:35:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis_res" id="484B5591-183C-7FB4-5D32-8E7E3AB2C7D8">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:35:55 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres_res" id="B466C21C-7429-50E6-7101-857D2AA6B5E6">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:35:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon_res" id="64E5D175-DD0D-D1C3-4BDC-29BD31962E93">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:35:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7257836-1D85-EA67-103C-D9AA727A944F" name="Restauracja PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:36:37 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1ACA3F0-2940-987D-58E7-9BB5C2FC45F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBB395E5-E74F-D324-F1A4-34CBEE75B03D" name="Ocena">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>5C3B55A9-B92E-BAEE-618B-4DDB9536420D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_oc" id="9012C6FF-D224-821B-4A04-AE84A833E950">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>17DAC0E5-30DA-A8AD-B525-1C274ACE18E7</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena" id="C4A42587-5E39-63F1-BA52-48FBCAF5ACE8">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>F0383913-3D6D-183B-3BF2-DC785A37E0FC</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="opis_oc" id="F8061261-781D-FD76-CA22-75292815934D">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>6275C497-D319-36C4-2337-80D7E285E51F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_res" id="C98B6818-B859-E762-6167-FFD5DF652D1F">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>271A3E16-3B10-27F9-B04D-9FD71F68468A</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3CDD3C4-1359-26C5-1BCF-31617C357386" referredColumn="A157F895-7489-483C-873B-AD1ECA75DC4A"/>
+</associations>
+</Column>
+<Column name="id_kl" id="A5F1249B-82F2-9B97-0C1C-A82903B9800E">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>0ED4EF75-943E-25CE-BB55-687BB91C398F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BDD7A5B-C86C-58E4-1CD1-B858EF0E02FF" referredColumn="43DDD106-E44F-2E76-16B4-3157F6B42CBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8589257F-527A-5481-8911-3A8AB435CE97" name="Ocena_PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>6BADC7FB-7DBF-0A55-B2F5-AA7D69EA59B7</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9012C6FF-D224-821B-4A04-AE84A833E950"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1356679-DAE7-BE65-5E13-6C8C1BB53C8D" name="Ocena_Klient_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>0AAB24C7-3436-D9B8-60A4-1654CC08AB2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F1249B-82F2-9B97-0C1C-A82903B9800E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="638DF7B3-3B31-1183-39E9-9BE59CBBD22E" name="Ocena_Restauracja_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>CB3964B4-A9F9-BEFC-01B3-656E435F9093</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C98B6818-B859-E762-6167-FFD5DF652D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

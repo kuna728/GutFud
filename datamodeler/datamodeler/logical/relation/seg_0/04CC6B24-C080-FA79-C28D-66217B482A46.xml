@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rest_dziel" directorySegmentName="seg_0" id="04CC6B24-C080-FA79-C28D-66217B482A46">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:58:23 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>oferuje dowoz w...</nameOnSource>
+<nameOnTarget>dotyczy...</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AE399F38-3AB4-E035-9FD4-EF7AEC869F74</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A641527-EC86-A60C-396C-A35D0B786758</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB961D2B-F858-4066-8E4E-84C719364998" name="Restauracja">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>AE399F38-3AB4-E035-9FD4-EF7AEC869F74</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_res" id="A157F895-7489-483C-873B-AD1ECA75DC4A">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>E1ACA3F0-2940-987D-58E7-9BB5C2FC45F2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_res" id="31D09F41-1103-B219-CD47-C5203C4A41E7">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>D866EF2F-32F1-7FC6-6CBF-5F48F2A2F610</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis_res" id="E85BCA35-74F3-6861-2C55-35BAF70FBEC5">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>484B5591-183C-7FB4-5D32-8E7E3AB2C7D8</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres_res" id="D38276F8-0A4B-EFD7-E413-4CA1CD610628">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>B466C21C-7429-50E6-7101-857D2AA6B5E6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon_res" id="A610C3E2-6D37-1043-721F-C46EF39F1CDD">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>64E5D175-DD0D-D1C3-4BDC-29BD31962E93</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91CE46C2-2F44-E55F-967A-F8081AAFAA81" name="Restauracja_PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>A7257836-1D85-EA67-103C-D9AA727A944F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A157F895-7489-483C-873B-AD1ECA75DC4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

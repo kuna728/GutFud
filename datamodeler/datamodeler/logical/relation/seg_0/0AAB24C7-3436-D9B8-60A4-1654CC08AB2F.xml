@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kl_oc" directorySegmentName="seg_0" id="0AAB24C7-3436-D9B8-60A4-1654CC08AB2F">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:54:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<sourcePk>AC1D0E96-F798-E456-4030-AF6824BE1537</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ocenil...</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E489AF4B-E486-E958-94B7-67E8ABEB88B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C3B55A9-B92E-BAEE-618B-4DDB9536420D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

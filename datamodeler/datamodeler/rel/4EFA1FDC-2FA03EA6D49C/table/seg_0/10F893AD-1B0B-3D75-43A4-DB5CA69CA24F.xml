@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10F893AD-1B0B-3D75-43A4-DB5CA69CA24F" name="kat_res">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_res" id="EEB005F0-FBE9-8F1F-44C7-863AE5958103">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63DCFF98-A53D-503B-D512-BCDA04E7DF8D" referredColumn="A157F895-7489-483C-873B-AD1ECA75DC4A"/>
+</associations>
+</Column>
+<Column name="id_kat_res" id="C7AD6656-D4CA-2C52-D9D4-9BB079FBF783">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B3C6F65-700F-EAD3-0918-9E7E041EF8A7" referredColumn="B40E6172-CC23-8332-7200-5A7BE115E974"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1711511-F9FD-E0FD-541E-97263491A3C7" name="kat_res_PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEB005F0-FBE9-8F1F-44C7-863AE5958103"/>
+<colUsage columnID="C7AD6656-D4CA-2C52-D9D4-9BB079FBF783"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED911D72-30E1-9DF0-B7E8-F9ADB0A7932E" name="kat_res_Restauracja_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>C65C45AC-740F-B131-8CA1-2EDBAF346445</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEB005F0-FBE9-8F1F-44C7-863AE5958103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5883068F-8BB2-48CA-96F8-0177D4AEE2B2" name="kat_res_Kategoria_res_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>C65C45AC-740F-B131-8CA1-2EDBAF346445</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7AD6656-D4CA-2C52-D9D4-9BB079FBF783"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B3C6F65-700F-EAD3-0918-9E7E041EF8A7" containerWithKeyObject="10F893AD-1B0B-3D75-43A4-DB5CA69CA24F" localFKIndex="5883068F-8BB2-48CA-96F8-0177D4AEE2B2" name="kat_res_Kategoria_res_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>C65C45AC-740F-B131-8CA1-2EDBAF346445</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Kategoria_res</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3B0A0329-AE68-B0C9-BC52-BC2C2B0E3EFA</referredTableID>
+<keyObject>4298EFAA-DC8E-333F-260F-1287EFBFDA5A</keyObject>
+<referredKeyID>4298EFAA-DC8E-333F-260F-1287EFBFDA5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kat_res</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

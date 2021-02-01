@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="menu" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="de9d891b-e363-47c3-a098-30af900aaddc">
+	<property name="ireport.zoom" value="2.3579476910000032"/>
+	<property name="ireport.x" value="356"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="id_res" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[2]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select * from view_menu where id=$P{id_res}]]>
+	</queryString>
+	<field name="ID" class="java.math.BigDecimal"/>
+	<field name="RESTAURACJA" class="java.lang.String"/>
+	<field name="KATEGORIA" class="java.lang.String"/>
+	<field name="POZYCJA" class="java.lang.String"/>
+	<field name="CENA" class="java.math.BigDecimal"/>
+	<group name="NAZWA_KAT_PROD">
+		<groupExpression><![CDATA[]]></groupExpression>
+	</group>
+	<group name="kategoria">
+		<groupExpression><![CDATA[$F{KATEGORIA}]]></groupExpression>
+		<groupHeader>
+			<band height="37">
+				<textField>
+					<reportElement x="80" y="0" width="359" height="27" uuid="046735fa-e479-4eb9-aedd-5dd1eca28efb"/>
+					<textElement>
+						<font fontName="DejaVu Serif" size="15" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{KATEGORIA}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="80" y="27" width="375" height="1" uuid="1654b58c-093d-428e-a305-c027585c056e"/>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="32"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="105" splitType="Stretch">
+			<staticText>
+				<reportElement x="128" y="18" width="275" height="55" uuid="92cb8a75-1f84-4314-94fe-87f1dd96420f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Berlin Sans FB" size="40" isBold="false" isItalic="false" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Menu]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="128" y="72" width="275" height="33" uuid="9cefeb14-b960-4816-9054-3239f63fbbbe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{RESTAURACJA}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="405" y="73" width="50" height="32" uuid="dc59374d-fc0b-4c7c-9773-87034adeb34e"/>
+				<imageExpression><![CDATA["C:\\Users\\kuna7\\Desktop\\BDPROJEKT\\JReports\\logo.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="50"/>
+	</pageHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="80" y="1" width="254" height="26" uuid="b3cb5538-ec4f-48c9-b3c6-7a59da748641"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{POZYCJA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="1" width="100" height="20" uuid="0d3f9553-c4ea-4794-a16b-b0b9f9d64cfe"/>
+				<textElement textAlignment="Right">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CENA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="255" y="38" width="100" height="16" uuid="0015343c-ec2e-4d68-b5e3-8465869cc6a2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[gutfud.pl]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

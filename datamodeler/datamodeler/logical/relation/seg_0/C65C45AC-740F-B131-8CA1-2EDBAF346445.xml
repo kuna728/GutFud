@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kat_res" directorySegmentName="seg_0" id="C65C45AC-740F-B131-8CA1-2EDBAF346445">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:57:06 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>jest</nameOnSource>
+<nameOnTarget>dotyczy</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AE399F38-3AB4-E035-9FD4-EF7AEC869F74</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C8F9BDF1-FE8A-A0EA-D269-FB5B66DB3B4F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

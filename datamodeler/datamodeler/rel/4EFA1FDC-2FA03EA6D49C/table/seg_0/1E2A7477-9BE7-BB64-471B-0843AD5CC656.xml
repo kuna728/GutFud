@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E2A7477-9BE7-BB64-471B-0843AD5CC656" name="Zamowienie">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>08831EF4-0F51-9250-445D-A4C26FA80224</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zam" id="8A8EAF27-C0C2-687A-9F45-A063B525F0DB">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>3A661836-C30B-594D-16B4-B14FBD3F0B2B</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zam" id="E45F3D01-593A-FD82-AFFB-1FD724562029">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>4BF018B5-AC0E-FBEA-27ED-44A121E095F1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_kl" id="26C1DE28-8E36-1A53-F04E-B1430B94C22A">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>360F5486-E68A-3A95-B9B9-64FB9F41317D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63DBBAF1-F472-3943-DFB7-03BC798A9755" referredColumn="43DDD106-E44F-2E76-16B4-3157F6B42CBD"/>
+</associations>
+</Column>
+<Column name="id_res" id="3A1E25E1-BF3F-15DF-D8C2-5C164834E32B">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>2D39C7DB-2EE8-4A75-D200-24BEE7B61704</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC081BD9-E148-B6F5-888F-A6C691FFFB3A" referredColumn="A157F895-7489-483C-873B-AD1ECA75DC4A"/>
+</associations>
+</Column>
+<Column name="id_plat" id="93D7819B-D970-D8F1-906A-7C4AE6F3BF11">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>66C6F9B0-E91F-8C98-4C42-8F49B18BD7BA</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49DC2BAA-77BD-85D1-F207-FF924751192D" referredColumn="ADB6AA44-6547-7536-F9BB-72EF03750BAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0712F3D5-521E-33EC-B256-F7556B2BDD4B" name="Zamowienie_PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>492277F0-1F87-98ED-AD6C-88B6F0E55A41</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A8EAF27-C0C2-687A-9F45-A063B525F0DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7875193-8513-72C1-4F60-BCC33E124F54" name="Zamowienie_Klient_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>E342D943-FED0-781D-624F-841CD6AC2318</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C1DE28-8E36-1A53-F04E-B1430B94C22A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33AA68B9-5FB0-4D1F-3005-4E466717AD37" name="Zamowienie_Restauracja_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>EFAAA8B3-A325-DA3B-0767-2630135B1C3D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1E25E1-BF3F-15DF-D8C2-5C164834E32B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD7A9F64-65E9-32F9-AA3B-9CCF670AC799" name="Zamowienie_Sposob_platnosci_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>28BB9A1C-0FE2-FE1D-4FA9-1D0A78FA3A82</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D7819B-D970-D8F1-906A-7C4AE6F3BF11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

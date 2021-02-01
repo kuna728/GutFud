@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49DC2BAA-77BD-85D1-F207-FF924751192D" containerWithKeyObject="1E2A7477-9BE7-BB64-471B-0843AD5CC656" localFKIndex="AD7A9F64-65E9-32F9-AA3B-9CCF670AC799" name="Zamowienie_Sposob_platnosci_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>28BB9A1C-0FE2-FE1D-4FA9-1D0A78FA3A82</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Sposob_platnosci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>42C8E03A-ED8A-3CEB-59F8-E520E883EAE4</referredTableID>
+<keyObject>017DEE9D-1FFE-6045-353A-FB5DF1E073C6</keyObject>
+<referredKeyID>017DEE9D-1FFE-6045-353A-FB5DF1E073C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

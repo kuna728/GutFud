@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6221B18-D4AD-5426-8645-7D6F72BE00DC" name="rest_dziel">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_res" id="13F3F08A-196B-A7F9-1519-73D203DFFFC4">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF245D1-6384-3778-D0E2-D3B6E2F99009" referredColumn="A157F895-7489-483C-873B-AD1ECA75DC4A"/>
+</associations>
+</Column>
+<Column name="id_dz" id="998DA457-EA07-6CFA-B022-FB67EC1C41BD">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01AE1C97-42D7-9570-B778-A4DB5B5355E8" referredColumn="2067BA2F-C44B-BF8D-873B-99CBE275A676"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88A50A32-7A39-7BA5-FD27-FDB854A2FE24" name="rest_dziel_PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F3F08A-196B-A7F9-1519-73D203DFFFC4"/>
+<colUsage columnID="998DA457-EA07-6CFA-B022-FB67EC1C41BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCE2EA80-9BF1-727D-FF99-DC084F21021B" name="rest_dziel_Restauracja_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>04CC6B24-C080-FA79-C28D-66217B482A46</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F3F08A-196B-A7F9-1519-73D203DFFFC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B975687-B3A1-D8DA-234D-7EC1B785C743" name="rest_dziel_Dzielnica_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>04CC6B24-C080-FA79-C28D-66217B482A46</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998DA457-EA07-6CFA-B022-FB67EC1C41BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

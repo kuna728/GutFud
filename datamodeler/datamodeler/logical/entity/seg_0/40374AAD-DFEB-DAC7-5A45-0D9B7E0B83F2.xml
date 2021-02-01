@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40374AAD-DFEB-DAC7-5A45-0D9B7E0B83F2" name="Sposob_platnosci">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 21:00:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plat" id="321D8117-E2FD-4FDE-C055-1C7A1E0CE545">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 21:00:47 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_plat" id="612219B5-F820-4886-11FC-3E42A59810BC">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 21:00:47 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E88253A-D9E3-18AB-5EB2-44DA66D2E263" name="Sposob_platnosci PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 21:01:17 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>321D8117-E2FD-4FDE-C055-1C7A1E0CE545</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

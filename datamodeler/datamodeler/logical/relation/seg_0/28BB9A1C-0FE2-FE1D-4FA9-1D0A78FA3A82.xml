@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="spo_zam" directorySegmentName="seg_0" id="28BB9A1C-0FE2-FE1D-4FA9-1D0A78FA3A82">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-09 15:10:50 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="398780CC-4BA0-34A7-4A6F-D60B9CCEC94D" value="true"/>
+</engineerTo>
+<sourcePk>2E88253A-D9E3-18AB-5EB2-44DA66D2E263</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40374AAD-DFEB-DAC7-5A45-0D9B7E0B83F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08831EF4-0F51-9250-445D-A4C26FA80224</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

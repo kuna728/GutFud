@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE251D4E-326A-B494-FD16-D03AA00EA641" containerWithKeyObject="1B056836-C18D-EAE3-1684-E091595F1DBC" localFKIndex="CB03E042-EFEE-31EE-FCC6-D0BAAF940085" name="Produkt_Restauracja_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>EFD63207-AB30-EBE2-F91D-8C4C6D9B5DB0</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Restauracja</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>AB961D2B-F858-4066-8E4E-84C719364998</referredTableID>
+<keyObject>91CE46C2-2F44-E55F-967A-F8081AAFAA81</keyObject>
+<referredKeyID>91CE46C2-2F44-E55F-967A-F8081AAFAA81</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_res</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

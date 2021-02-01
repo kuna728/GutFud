@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8DB0F5B-7A06-20A8-5B06-908AC333E84A" containerWithKeyObject="4DA946FE-2BD6-D2F4-2E31-6C9889EDF395" localFKIndex="512DD80C-F76A-DEE8-FD91-C95DFC9404DC" name="skl_prod_Skladnik_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>FF7B85E3-AEDA-8517-8A58-CB67F8DEA69E</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Skladnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1DC4771E-76C9-BEFC-2B85-12EB7BBAA65C</referredTableID>
+<keyObject>84033242-6D95-954C-F8E6-D77BF0AC9296</keyObject>
+<referredKeyID>84033242-6D95-954C-F8E6-D77BF0AC9296</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_skl</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

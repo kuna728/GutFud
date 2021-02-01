@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="res_zam" directorySegmentName="seg_0" id="EFAAA8B3-A325-DA3B-0767-2630135B1C3D">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:59:45 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<sourcePk>A7257836-1D85-EA67-103C-D9AA727A944F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>otrzymala...</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE399F38-3AB4-E035-9FD4-EF7AEC869F74</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08831EF4-0F51-9250-445D-A4C26FA80224</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

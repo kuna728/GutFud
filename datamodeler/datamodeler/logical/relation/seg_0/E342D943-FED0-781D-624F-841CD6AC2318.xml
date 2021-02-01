@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kl_zam" directorySegmentName="seg_0" id="E342D943-FED0-781D-624F-841CD6AC2318">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:59:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<sourcePk>AC1D0E96-F798-E456-4030-AF6824BE1537</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>zamowil...</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E489AF4B-E486-E958-94B7-67E8ABEB88B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08831EF4-0F51-9250-445D-A4C26FA80224</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

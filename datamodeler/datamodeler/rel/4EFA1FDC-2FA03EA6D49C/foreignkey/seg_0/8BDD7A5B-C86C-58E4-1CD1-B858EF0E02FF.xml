@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BDD7A5B-C86C-58E4-1CD1-B858EF0E02FF" containerWithKeyObject="DBB395E5-E74F-D324-F1A4-34CBEE75B03D" localFKIndex="E1356679-DAE7-BE65-5E13-6C8C1BB53C8D" name="Ocena_Klient_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>0AAB24C7-3436-D9B8-60A4-1654CC08AB2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Klient</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D84AFEA0-FFE9-5DA1-09C9-3DF7B72823B1</referredTableID>
+<keyObject>9AC45B61-06DE-C4A3-51C6-FA84B41BF983</keyObject>
+<referredKeyID>9AC45B61-06DE-C4A3-51C6-FA84B41BF983</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kl</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

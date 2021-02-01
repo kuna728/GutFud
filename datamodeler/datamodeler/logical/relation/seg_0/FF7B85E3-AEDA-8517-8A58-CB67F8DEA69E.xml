@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="skl_prod" directorySegmentName="seg_0" id="FF7B85E3-AEDA-8517-8A58-CB67F8DEA69E">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 20:00:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>jest czescia...</nameOnSource>
+<nameOnTarget>zawiera...</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1327A1C9-DA38-DAA5-F513-43ABA6DF3E5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>65295723-4AC9-569D-1CB9-228AD876BC95</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="waga_skl" id="662660EF-84CF-C390-B4BA-EF66E93350E7">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 20:38:36 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

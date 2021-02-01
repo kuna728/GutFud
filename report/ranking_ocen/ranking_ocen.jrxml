@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ranking_ocen" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="389a7f42-f8f6-44c5-a479-8c671078791a">
+	<property name="ireport.zoom" value="1.9487171000000143"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from view_ranking_ocen]]>
+	</queryString>
+	<field name="RESTAURACJA" class="java.lang.String"/>
+	<field name="Średnia ocen" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="111" splitType="Stretch">
+			<staticText>
+				<reportElement x="91" y="39" width="256" height="43" uuid="a10d7e7f-9622-4095-99d4-f534bac8f538"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="DejaVu Serif" size="24" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Ranking restauracji]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="170" y="82" width="214" height="20" uuid="d1462170-70f8-4e2a-9946-24b3346d83c6"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isItalic="true" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="91" y="82" width="79" height="20" uuid="26cd54b1-4af5-47d5-a939-4e9dbdaea4ca"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Stan na dzień:]]></text>
+			</staticText>
+			<image>
+				<reportElement x="402" y="39" width="50" height="35" uuid="237737ed-7f84-4e7f-a90c-42ff1ae7a724"/>
+				<imageExpression><![CDATA["C:\\Users\\kuna7\\Desktop\\BDPROJEKT\\JReports\\logo.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="38" splitType="Stretch">
+			<line>
+				<reportElement x="91" y="24" width="361" height="1" uuid="b2990f9a-0dfd-4f6d-a01a-7ab43c6ee5e3"/>
+			</line>
+			<staticText>
+				<reportElement x="154" y="1" width="213" height="23" uuid="6fddf2cf-6a32-423a-aefb-ce756345522e"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Restauracja]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="0" width="44" height="25" uuid="ebf3fd77-ca3e-433e-92de-722f11477595"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="367" y="1" width="85" height="24" uuid="a4f4a1f7-926a-47e2-b1b3-62cfdbe36372"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Średnia ocen]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="154" y="0" width="213" height="27" uuid="684321a6-0224-4b38-80dc-28388812548f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{RESTAURACJA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="367" y="0" width="85" height="27" uuid="1309d43f-db2b-497b-893f-73a568007270"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Średnia ocen}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="44" height="27" uuid="2d3c8ae9-e355-4ec0-b433-9d98ad74538d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="91" y="0" width="361" height="27" uuid="93393503-ba06-4f3b-9a2e-7ad1c350c205"/>
+			</rectangle>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="56" splitType="Stretch">
+			<staticText>
+				<reportElement x="247" y="38" width="100" height="16" uuid="4610a87f-f8d4-47c1-8b29-cf45d3f663e4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[gutfud.pl]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch">
+			<line>
+				<reportElement x="91" y="0" width="361" height="1" uuid="4aab2baf-0e5e-4d20-a2c2-28578d5c84a4"/>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

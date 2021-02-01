@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08831EF4-0F51-9250-445D-A4C26FA80224" name="Zamowienie">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:59:09 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_zam" id="3A661836-C30B-594D-16B4-B14FBD3F0B2B">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:59:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zam" id="4BF018B5-AC0E-FBEA-27ED-44A121E095F1">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:59:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kl" id="360F5486-E68A-3A95-B9B9-64FB9F41317D">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:59:19 UTC</createdTime>
+<generatorID>E342D943-FED0-781D-624F-841CD6AC2318</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<referedAttribute>37DFBEB7-95C1-DA5F-FBD3-B9CC8A54E833</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_res" id="2D39C7DB-2EE8-4A75-D200-24BEE7B61704">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:59:45 UTC</createdTime>
+<generatorID>EFAAA8B3-A325-DA3B-0767-2630135B1C3D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<referedAttribute>E1ACA3F0-2940-987D-58E7-9BB5C2FC45F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plat" id="66C6F9B0-E91F-8C98-4C42-8F49B18BD7BA">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-09 15:10:50 UTC</createdTime>
+<generatorID>28BB9A1C-0FE2-FE1D-4FA9-1D0A78FA3A82</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<referedAttribute>321D8117-E2FD-4FDE-C055-1C7A1E0CE545</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="492277F0-1F87-98ED-AD6C-88B6F0E55A41" name="Zamowienie PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:59:31 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="75033015-88A7-482C-6B69-B73239887B94" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A661836-C30B-594D-16B4-B14FBD3F0B2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

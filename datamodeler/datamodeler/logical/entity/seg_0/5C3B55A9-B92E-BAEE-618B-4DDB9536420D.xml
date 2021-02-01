@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C3B55A9-B92E-BAEE-618B-4DDB9536420D" name="Ocena">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:56:00 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_oc" id="17DAC0E5-30DA-A8AD-B525-1C274ACE18E7">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:56:09 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocena" id="F0383913-3D6D-183B-3BF2-DC785A37E0FC">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:56:32 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>5</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="opis_oc" id="6275C497-D319-36C4-2337-80D7E285E51F">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:56:33 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_res" id="271A3E16-3B10-27F9-B04D-9FD71F68468A">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:54:26 UTC</createdTime>
+<generatorID>CB3964B4-A9F9-BEFC-01B3-656E435F9093</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<referedAttribute>E1ACA3F0-2940-987D-58E7-9BB5C2FC45F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kl" id="0ED4EF75-943E-25CE-BB55-687BB91C398F">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-08 19:54:49 UTC</createdTime>
+<generatorID>0AAB24C7-3436-D9B8-60A4-1654CC08AB2F</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<referedAttribute>37DFBEB7-95C1-DA5F-FBD3-B9CC8A54E833</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BADC7FB-7DBF-0A55-B2F5-AA7D69EA59B7" name="Ocena PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-07 20:56:24 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="B0651BB5-7A0F-2F34-A51F-407E0357DC5F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17DAC0E5-30DA-A8AD-B525-1C274ACE18E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

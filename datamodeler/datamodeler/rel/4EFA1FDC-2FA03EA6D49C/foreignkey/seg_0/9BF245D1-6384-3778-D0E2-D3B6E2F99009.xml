@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BF245D1-6384-3778-D0E2-D3B6E2F99009" containerWithKeyObject="F6221B18-D4AD-5426-8645-7D6F72BE00DC" localFKIndex="FCE2EA80-9BF1-727D-FF99-DC084F21021B" name="rest_dziel_Restauracja_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>04CC6B24-C080-FA79-C28D-66217B482A46</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Restauracja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB961D2B-F858-4066-8E4E-84C719364998</referredTableID>
+<keyObject>91CE46C2-2F44-E55F-967A-F8081AAFAA81</keyObject>
+<referredKeyID>91CE46C2-2F44-E55F-967A-F8081AAFAA81</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_res</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

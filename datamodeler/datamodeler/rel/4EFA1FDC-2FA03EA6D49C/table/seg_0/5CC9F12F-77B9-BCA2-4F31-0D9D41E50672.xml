@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CC9F12F-77B9-BCA2-4F31-0D9D41E50672" name="zam_prod">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zam" id="0FD3A86E-B730-0152-AB2E-EFDEF932DDCB">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C7CE4FD-1D67-3708-56C4-482F02ED25E1" referredColumn="8A8EAF27-C0C2-687A-9F45-A063B525F0DB"/>
+</associations>
+</Column>
+<Column name="id_prod" id="1478ED8A-CB61-6D3C-CA77-D454DFA0CE19">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DEBF74E-D3C6-E344-84B3-BB64ED683F47" referredColumn="D47FB188-3DAD-D5B4-1E57-103898CF48EE"/>
+</associations>
+</Column>
+<Column name="ilosc" id="B2A14A00-CC76-378C-83F9-C8687E8CDA56">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>761FA3C7-20A7-D9A9-F610-77FEF1C5127D</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="567120A4-BEC5-679E-D10B-0F2B2BBE95DF" name="zam_prod_PK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FD3A86E-B730-0152-AB2E-EFDEF932DDCB"/>
+<colUsage columnID="1478ED8A-CB61-6D3C-CA77-D454DFA0CE19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58FAFC1D-A5FC-1AE9-B887-D5B2407AA7B3" name="zam_prod_Zamowienie_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>938DDE12-D0DD-A9F8-9FAF-FB897FC8E220</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FD3A86E-B730-0152-AB2E-EFDEF932DDCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE869D98-B53F-5132-1116-17B21A2442DB" name="zam_prod_Produkt_FK">
+<createdBy>kuna7</createdBy>
+<createdTime>2021-01-10 00:47:58 UTC</createdTime>
+<generatorID>938DDE12-D0DD-A9F8-9FAF-FB897FC8E220</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1478ED8A-CB61-6D3C-CA77-D454DFA0CE19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
